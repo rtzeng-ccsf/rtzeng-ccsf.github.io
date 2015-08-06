@@ -1,102 +1,23 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
-<head>
-  <!-- meta http-equiv="refresh" content="0; url=http://mac-sam.herokuapp.com/" /-->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: default
+---
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+<div class="home">
 
-  <title>Richard Tzeng</title>
-  <meta name="description" content="Git my Rich Hub">
+  <h1 class="page-heading">Posts</h1>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-</head>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<body>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Richard Tzeng</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Git my Rich Hub</p>
-      <div id="main" role="main">
-          <div class="owner">
-
-          <br><p><a href="https://github.com/rtzeng-ccsf" class="avatar"><img src="https://avatars2.githubusercontent.com/u/11288696?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/rtzeng-ccsf">rtzeng-ccsf</a> on <a href="https://www.github.com">GitHub</a></p>
-
-          </div>
-        <article class="markdown-body">
-          <h1>
-<a id="-welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>### Welcome to my life.</h1>
-
-<p>I've started this site so that I can document and express some of my feelings over the past few years. Why didn't I create this earlier, I don't know why. Maybe it's because I've discovered git-hub.</p>
-
-<h3>
-<a id="interests" class="anchor" href="#interests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Interests</h3>
-
-<ul>
-  <li>My Daughter's lives</li>
-  <li>My wife's life</li>
-  <li>work</li>
-  <li>Rowing</li>
-  <li>Beer</li>
-  <li>DJ</li>
-  <li>http://warpspire.com/posts/taste/</li>
-  <li></li>
-</ul>
-<p>
-  When I was seven, I wanted to be a Car Mechanic at a gasoline station.<br>
-  When I was in college, I wanted to be a Structural Engineer designing bridges and buildings.<br>
-  Right out of college, I was a Construction Engineer for a now bankrupt construction company.<br>
-        I didn't even list it on my work history as I only worked there for three months.<br>
-  When I interviewed at Boeing, I only talked to the hiring manager and was hired a week later.<br>
-  The Asian Economic Crisis hit and I was laid off. I studied for and passed the MCSE certification.<br>
-  The tech bubble was blowing up and I landed at Exodus, a high flyer that went 3-1, 2-1 stock splits then to bankruptcy all in four years. At the two year mark, I was one of many paper millionaires.<br>
-        I wish I had cashed some out.<br>
-  During my time at Exodus, I passed the CCNA and CCNP.  However, all of my certifications from the bubble era have expired which is why I do not list them here.<br><br>
-  As the bubble burst and facing another lay off, I was pulled by a former manager into the Data Backup Team. Essentially, this was the Level II customer support escalation team for data backups. This was the highest level though as we would escalate to our backup software vendor. I spoke to customers daily and never feared jumping on a conference call to troubleshoot the issues.<br>
-
-  8 years competitive coxswain <br>
-  11 years rowing coach <br><br><br>
-  Career capital, passion, and higher purpose, so I'm currently studying:<br>
-  Delivering Happiness: A Path to Profits, Passion, and Purpose by Tony Hsieh<br>
-  Ruby on Rails with the @railstutorial! http://www.railstutorial.org/<br>
-  Beginning Ruby: From Novice to Professional by Peter Cooper<br>
-  Github engineering blog https://github.com/blog/category/engineering<br>
-</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/rtzeng-ccsf/rtzeng-ccsf.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/rtzeng-ccsf/rtzeng-ccsf.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-
-</body>
-</html>
+</div>
