@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the cool blog site of Rich Tzeng.  I can add stufs here.
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rtzeng-ccsf.github.io" # the base hostname & protocol for your site
-github_username:  rtzeng-ccsf
+url: "http://thefront.github.io" # the base hostname & protocol for your site
+github_username:  thefront
 
 # Build settings
 markdown: kramdown
