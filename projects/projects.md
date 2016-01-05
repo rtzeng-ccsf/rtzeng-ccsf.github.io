@@ -4,7 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-Projects
-# prod #1
-## prod #2
-### proj #3
+My current project is to practice coding.
+
+So here is a list of my profiles at various coding sites:
+
+* [CodeWars](http://www.codewars.com/users/thefront)
+* [HackerRank](https://www.hackerrank.com/rtzeng)
+* [Codecademy](https://www.codecademy.com/rtzeng)
