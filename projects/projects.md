@@ -14,5 +14,5 @@ So here is a list of my profiles at various coding sites:
 * [KhanAcademy](https://www.khanacademy.org/profile/kaid_997023413751452414665251/)
 
 I also went through the Michael Hartl's
-[Ruby on Rails](https://www.railstutorial.org/). My version of the app is on
+[Ruby on Rails Tutorial](https://www.railstutorial.org/). My version of the app is on
 Heroku, [https://mac-sam.herokuapp.com/](https://mac-sam.herokuapp.com/).
