@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-My work history in 5 lines:
+My work history in 6 lines:
 
-* 5 months Site Reliability Operator at [Okta](https://www.okta.com/)
+* 2+ years as a Site Reliability Engineering at [Okta](https://www.okta.com/)
 * 11 months Systems Engineer, Site Reliability Engineering at [One Kings Lane](https://www.onekingslane.com/)
 * 1.5 years Linux Systems Administrator, Cloud Operations at [Model N](http://www.modeln.com)
 * 10 years Data Backup Support Engineer at [Savvis Communications](http://www.savvis.net/) (which was merged with CenturyLink)
